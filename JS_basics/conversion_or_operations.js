@@ -31,3 +31,24 @@ let somestring = 33
 let stringNumber = String(somestring)
 console.log(stringNumber);
 console.log(typeof stringNumber);// here we saw conversion happened and we could see that 33's type changed from number to string
+
+// *************************************** Operations *******************************************
+
+console.log(2-2);
+console.log(2**2);
+
+let str1 = "Ram"
+let str2 = " Kishore"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" +2 +2);// here it depends what is kept at first if it is string then rest will be treated as string
+console.log(1 + 2 + "2");// if first one is number then next one if it number then it will be added and after that string is there so it will add it as string only
+
+let gamecounter = 100
+gamecounter++ // the increment operator increments and returns the value before incrementing.
+++gamecounter // the increment operator increments and returns the value after incrementing.
+console.log(gamecounter);
+
