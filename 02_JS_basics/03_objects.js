@@ -25,7 +25,7 @@ console.log(Jsuser);
 Jsuser.greetings = function(){
     console.log("Hello Js User");   
 }
-console.log(Jsuser.greetings);
+console.log(Jsuser.greetings());
 Jsuser.greetingstwo = function(){
     console.log(`Hello ${this["full name"]} User`);   
 }
